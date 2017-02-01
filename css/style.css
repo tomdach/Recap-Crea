@@ -1,0 +1,305 @@
+/*----------------------------------body--------------------------------*/
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family:Rubik-Black;
+	
+	src: url(../font/Rubik-Black.ttf);
+}
+body{
+	overflow-x:hidden;
+	 
+ /*background-image: url(../img/home1.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+  a voir pour la fin */
+}
+/*----------------------------------fin--------------------------------*/
+
+
+/*----------------------------------NAVBAR--------------------------------*/
+
+nav{
+	height:40px;
+	width: 100%;
+	background-color:#444;
+}
+nav ul {
+	
+	margin-left:50%;
+}
+nav li {
+    display: inline-block;
+	color: white;
+    margin-top: 10px;
+    margin-left: 11%;	
+    	font-family:Rubik-Black;
+
+}
+#logo1{
+	float: left;
+	height: 35px;
+	width: 35px;
+	margin-left: 2%;
+	margin-top: 0.15%;
+	border-radius: 100%;
+}
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    color: 
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    color: 
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    color: 
+}
+/*---------------------------------FIN------------------------------------*/
+
+
+/*---------------------------------imgPrincipale-------------------------*/
+#xbox{
+	background-image: url("../img/home1.jpg");
+	height: 700px;
+	background-size:100%;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-position: fixed center;
+	background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+#titre{
+	margin-left: 43%;
+	padding-top: 20%;
+	color: white;
+	font-family:Rubik-Black;
+
+}
+#titre2{
+	margin-left: 32%;
+	color: white;
+}
+/*---------------------------------FIN------------------------------------*/
+
+
+/*--------------------------------video------------------------------------*/
+
+
+
+#vid{
+	height: 688px;
+	background-color: grey;
+	display: flex;
+
+}
+#video{
+	margin-top: 50px;
+	margin-left: 20px;
+	border: 1px solid;
+}
+#chatb{
+	height: 600px;
+	width: 300px;
+	border: 1px solid black;
+	margin-left: 90px;
+	margin-top: 50px;
+	background-color: grey;
+
+
+}
+#inp{
+	margin-top: 580px;
+	width: 235px; 
+}
+
+#te
+{
+	text-align:center;
+	margin-bottom:-45px;
+		font-family:Rubik-Black;
+
+}
+/*---------------------------------FIN------------------------------------*/
+/*---------------------------------l'equipe------------------------------------*/
+img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+
+}
+#prout{
+    height: 680px;
+	border: 1px solid #444;
+	background-color: #444;
+		font-family:Rubik-Black;
+
+}
+#lel{
+	text-align: center;
+}
+.img9{
+	height: 417px;
+	width: 280px;
+	margin: 10px;
+	margin-top: 20px;
+	
+
+}
+#img1{
+	margin-left: 40px;
+
+}
+#nom {
+	
+	margin-left:50.8%;
+	margin-top: -25px;
+}
+ .pre {
+    display: inline-block;
+	color: white;
+    margin-top: 10px;
+    margin-left: 11%;	
+}
+#a{
+	margin-left: -610px;
+	background-color: grey;
+	width: 281px;
+	text-align: center;
+
+}
+#b{
+	margin-left: 21px;
+	background-color: grey;
+	width: 280px;
+	text-align: center;
+}
+#c{
+margin-left: 19px;
+	background-color: grey;
+	width: 280px;
+	text-align: center;
+}
+#d{
+	margin-left: 20px;
+	background-color: grey;
+	width: 280px;
+	text-align: center;
+}
+#joi{
+	margin-left: 30%;
+	margin-top: 5%;
+	height: 50px;
+	width: 500px;
+	background-color: grey;
+}
+/*---------------------------------FIN------------------------------------*/
+/*--------------------------formulaire------------------------------------*/
+#bl{
+    height: 678px;
+	border: 1px solid black;
+	background-color: grey;
+		font-family:Rubik-Black;
+
+}
+.inpt{
+	
+	width: 500px;
+	height: 30px;
+	background-color: #444;
+}
+#inpu{
+	margin-top: 9%;
+	margin-left: 30%;
+}
+#inpu1{
+	margin-left: 30%;
+	margin-top: 1%;
+}
+#teg{
+	margin-left: 30%;
+	margin-top: 1%;
+	width: 500px;
+	height: 200px;
+	background-color: #444;
+}
+#thom{
+	margin-left: 63.8%;
+	height: 30px;
+	width: 70px;
+}
+
+/*---------------------------------FIN------------------------------------*/
+
+/*---------------------------------copy footer------------------------------------*/
+
+#copy{
+	 height: 100px;
+	border: 1px solid black;
+	background-color: #444;
+		font-family:Rubik-Black;
+
+
+}
+
+#fb{
+	height: 50px;
+	width: 50px;
+	margin-left:22%;
+}
+#log{
+	height: 70px;
+	margin-top:-35px;
+	margin-left:10px;
+	border-radius: 100%;
+}
+#copyr{
+	margin-left: 45%;
+	margin-top:-35px;
+}
+
+/*---------------------------------FIN------------------------------------*/
+
+
+/*---------------------------------div qui font des truc cool-------------*/
+#truc{
+	height: 300px;
+	background-image: url(../img/home5.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ 
+}
+#truc1{
+	height: 300px;
+	background-image: url(../img/home11.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+/*---------------------------------FIN------------------------------------*/
+
+
